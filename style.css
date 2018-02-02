@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contenedor{
+	height: 400px;
+	width: 400px;
+	background: #BB4747;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+.contenido{
+	height: 150px;
+	width: 150px;
+	background: lightblue;
+	border: 1px solid lightgray;
+}
+
+.centrado1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centrado2{
+	position: relative;
+}
+
+.centrado2 .contenido{
+	margin: auto auto;
+}
+
