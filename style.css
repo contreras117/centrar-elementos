@@ -30,6 +30,60 @@ body{
 }
 
 .centrado2 .contenido{
-	margin: auto auto;
+	margin: 125px auto;
 }
 
+.centrado3{
+	position: relative;
+}
+
+.centrado3 .contenido{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+
+.centrado4{
+	position: relative;
+}
+
+.centrado4 .contenido{
+	position: absolute;
+	top: 125px;
+	left: 125px;
+}
+
+.centrado5{
+	position: relative;
+}
+
+.centrado5 .contenido{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.centrado6{
+	display: flex;
+}
+
+.centrado6 .contenido{
+	margin: auto;;
+}
+
+.centrado7{
+	position: relative;
+}
+
+.centrado7 .contenido{
+	position: absolute;
+	top:	50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
